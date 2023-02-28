@@ -5,7 +5,7 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6 justify-center items-center">
-        <Text variant="h1" className="center text-zinc-200">
+        <Text variant="h1" className="center text-zinc-100">
           Chat with an AI
         </Text>
         <Text className="text-zinc-400">Ask for anything you want</Text>

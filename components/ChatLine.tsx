@@ -53,10 +53,10 @@ export function ChatLine({ who = "bot", message }: Message) {
       }
     >
       <BalancerWrapper>
-        <div className="float-right mb-5 rounded-lg px-4 py-5 shadow-lg ring-1 ring-zinc-100 sm:px-6">
+        <div className="float-right mb-5 bg-black rounded-lg px-4 py-5 shadow-lg shadow-[0_6px_12px_rgb(0,0,0,0.25)] ring-zinc-100 sm:px-6">
           <div className="flex space-x-3">
             <div className="flex-1 gap-4">
-              <p className="font-large text-xxl text-gray-900">
+              <p className="font-large text-xxl text-zinc-400">
                 <a href="#" className="hover:underline">
                   {who == "bot" ? "AI" : "You"}
                 </a>
@@ -64,7 +64,9 @@ export function ChatLine({ who = "bot", message }: Message) {
               <p
                 className={clsx(
                   "text ",
-                  who == "bot" ? "font-semibold font- " : "text-gray-400"
+                  who == "bot"
+                    ? "font-semibold text-zinc-100"
+                    : "font-semibold text-gray-100"
                 )}
               >
                 {formatteMessage}
