@@ -8,7 +8,7 @@ import "@vercel/examples-ui/globals.css";
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="bg-back h-screen">
+    <div className="bg-back min-h-screen h-fit overflow-auto scrollbar-hide">
       <Component {...pageProps} />
       <Analytics />
     </div>
