@@ -73,8 +73,7 @@ export default async function handler(req: NextRequest) {
   if (process.env.OPENAI_API_ORG) {
     requestHeaders["OpenAI-Organization"] = process.env.OPENAI_API_ORG;
   }
-
-  const response = await fetch("https://api.openai.com/v1/completions", {
+ const response = await fetch("https://api.openai.com/v1/chat/completions", {
     headers: requestHeaders,
     method: "POST",
     body: JSON.stringify(payload),
