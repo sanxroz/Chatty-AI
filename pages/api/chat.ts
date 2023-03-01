@@ -88,7 +88,6 @@ export default async function handler(req: NextRequest) {
       text: `ERROR with API integration. ${data.error.message}`,
     });
   }
-
   // return response with 200 and stringify json text
   return NextResponse.json({ text: data.choices[0].text });
 }
