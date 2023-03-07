@@ -19,7 +19,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
       type="text"
       aria-label="chat input"
       required
-      className="min-w-0 border-1 border-neutral-500 text-zinc-300 flex-auto appearance-none rounded-full border border-zinc-900/10 bg-black px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-100 focus:border-orange-500 focus:outline-none focus:ring-4 focus:ring-orange-500/10 sm:text-sm"
+      className="min-w-0 border-2 border-neutral-500 text-zinc-300 flex-auto appearance-none rounded-full border border-zinc-900/10 bg-black px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-100 focus:border-orange-500 focus:outline-none focus:ring-4 focus:ring-orange-500/10 sm:text-sm"
       value={input}
       onKeyDown={(e) => {
         if (e.key === "Enter") {
