@@ -9,7 +9,7 @@ const COOKIE_NAME = "nextjs-example-ai-chat-gpt3";
 export const initialMessages: Message[] = [
   {
     who: "bot",
-    message: "Hi! I’m Chatty, your AI friend. Ask me anything!",
+    message: "Hey I'm Chatty",
   },
 ];
 
@@ -19,7 +19,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
       type="text"
       aria-label="chat input"
       required
-      className="min-w-0 text-zinc-300 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-textinput px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-100 focus:border-orange-500 focus:outline-none focus:ring-4 focus:ring-orange-500/10 sm:text-sm"
+      className="min-w-0 border-neutral-500 text-zinc-300 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-black px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-100 focus:border-orange-500 focus:outline-none focus:ring-4 focus:ring-orange-500/10 sm:text-sm"
       value={input}
       onKeyDown={(e) => {
         if (e.key === "Enter") {
@@ -91,7 +91,7 @@ export function Chat() {
   };
 
   return (
-    <div className="rounded-2xl border-zinc-100  shadow-[inset_0_3px_3px_rgb(0,0,0,0.5)] bg-introback lg:p-6">
+    <div className="rounded-2xl border-white bg-black lg:p-6">
       {messages.map(({ message, who }, index) => (
         <ChatLine key={index} who={who} message={message} />
       ))}
@@ -99,8 +99,8 @@ export function Chat() {
       {loading && <LoadingChatLine />}
 
       {messages.length < 2 && (
-        <span className="mx-auto flex flex-grow text-zinc-500 clear-both">
-          Type a message to start the conversation
+        <span className="mx-auto flex flex-grow text-white clear-both">
+          Tell me how can I help you!!
         </span>
       )}
       <InputMessage

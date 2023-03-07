@@ -5,10 +5,9 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6 justify-center items-center">
-        <Text variant="h1" className="center text-zinc-100">
-          Talk with Chatty
+        <Text variant="h2" className="center text-zinc-100">
+          Hello! I'm Chatty
         </Text>
-        <Text className="text-zinc-400">Tell me whatever you want</Text>
       </section>
 
       <section className="flex flex-col gap-3 justify-center items-center">
