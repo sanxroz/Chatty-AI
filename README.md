@@ -1,47 +1,27 @@
 # Chatty AI
 
-This example shows how to implement a simple chat bot using Next.js, API Routes, and [OpenAI API](https://beta.openai.com/docs/api-reference/completions/create).
+Chatty is a faster clone of ChatGPT. Is Open-Source, so use the code for your own projects!!
+If have questions or need help, feel free to reach me on [@SanxRoz](https://twitter.com/SanxRoz)
 
-[![Chatty AI](./public/Chatty.jpeg)](https://chattygpt-ai.vercel.app/)
+[![Chatty AI](./public/Chatty.png)](https://chattygpt-ai.vercel.app/)
 
-### Components
+## Made with
 
 - Next.js
 - OpenAI API (REST endpoint)
-- API Routes (Edge runtime)
 
-## How to Use
+## Deploy it
 
-You can choose from one of the following two methods to use this repository:
+Use Vercel [Vercel](https://vercel.com) to deploy and test Chatty:
 
-### One-Click Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2FSanxRoz%2FChatty-AI&hasTrialAvailable=1&showOptionalTeamCreation=false&project-name=chatty-ai&framework=nextjs&totalProjects=1&remainingProjects=1&env=OPENAI_API_KEY)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+## Credits
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/ai-chatgpt&project-name=ai-chatgpt&repository-name=ai-chatgpt&env=OPENAI_API_KEY)
+Thanks to [Vercel](https://vercel.com/templates) for the inspiration. I highly recommend checking their templates.
 
-### Clone and Deploy
+This project is meant to show people that you can build your own AI products in days.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Keep learning, testing and coding!!
 
-#### Set up environment variables
-
-Rename [`.env.example`](.env.example) to `.env.local`:
-
-then, update `OPENAI_API_KEY` with your [OpenAI](https://beta.openai.com/account/api-keys) secret key.
-
-Next, run Next.js in development mode:
-
-```bash
-npm install
-npm run dev
-
-# or
-
-yarn
-yarn dev
-```
-
-The app should be up and running at http://localhost:3000.
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+### Learn by doing!
