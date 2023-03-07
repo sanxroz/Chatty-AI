@@ -5,8 +5,8 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6 justify-center items-center">
-        <Text variant="h2" className="center text-zinc-100">
-          Hello! I&apos;m Chatty
+        <Text variant="h1" className="center text-zinc-100">
+          👋 I&apos;m Chatty
         </Text>
       </section>
 
