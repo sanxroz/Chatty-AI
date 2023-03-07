@@ -2,6 +2,8 @@
 
 This example shows how to implement a simple chat bot using Next.js, API Routes, and [OpenAI API](https://beta.openai.com/docs/api-reference/completions/create).
 
+[![Chatty AI](./public/Chatty.jpeg)](https://chattygpt-ai.vercel.app/)
+
 ### Components
 
 - Next.js
@@ -22,19 +24,9 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-```bash
-npx create-next-app --example https://github.com/vercel/examples/tree/main/solutions/ai-chatgpt
-# or
-yarn create next-app --example https://github.com/vercel/examples/tree/main/solutions/ai-chatgpt
-```
-
 #### Set up environment variables
 
 Rename [`.env.example`](.env.example) to `.env.local`:
-
-```bash
-cp .env.example .env.local
-```
 
 then, update `OPENAI_API_KEY` with your [OpenAI](https://beta.openai.com/account/api-keys) secret key.
 
