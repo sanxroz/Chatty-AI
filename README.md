@@ -1,6 +1,7 @@
 # Chatty AI
 
 Chatty is a faster clone of ChatGPT. Is Open-Source, so use the code for your own projects!!
+
 If have questions or need help, feel free to reach me on [@SanxRoz](https://twitter.com/SanxRoz)
 
 [![Chatty AI](./public/Chatty.png)](https://chattygpt-ai.vercel.app/)
