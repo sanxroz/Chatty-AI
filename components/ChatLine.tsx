@@ -53,7 +53,7 @@ export function ChatLine({ who = "bot", message }: Message) {
       }
     >
       <BalancerWrapper>
-        <div className="float-right mb-5 bg-black rounded-lg px-4 py-5 shadow-lg shadow-[0_6px_12px_rgb(0,0,0,0.25)] ring-zinc-100 sm:px-6">
+        <div className="float-right border-2 border-slate-200/10 mb-5 bg-black rounded-lg px-4 py-5 shadow-lg shadow-[0_6px_12px_rgb(0,0,0,0.25)] ring-zinc-100 sm:px-6">
           <div className="flex space-x-3">
             <div className="flex-1 gap-4">
               <p className="font-large text-xxl text-zinc-400">
